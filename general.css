@@ -12,8 +12,15 @@
       Semi-bold: 600
       Bold: 700
   
+  -Letter Spacing: 
+        -0.5px
+        0.75px
+
   -Line heights: 
       Default: 1
+      Small: 1.05
+      Medium: 1.2
+      Paragraph-default: 1.6
 
 02. Colors:
       Main Color: #e67e22;
@@ -71,14 +78,25 @@ ul,
 li {
   list-style: none;
 }
+p {
+  font-size: 1.8rem;
+  letter-spacing: 1.6;
+}
 
 /*********************************************/
 /* General Resuable Classes */
 /*********************************************/
+.primary-heading {
+  font-size: 6.2rem;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
 
 .container {
   max-width: 120rem;
-  width: 0 auto;
+  margin: 0 auto;
   padding: 0 3.2rem;
 }
 .grid {
